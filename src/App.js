@@ -6,10 +6,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Project V.6</h1>
+        <h1>Project V.7</h1>
         <div>
           <h2>Dev-01</h2>
-          <p>Detail 1  111111111111</p>
+          <p>Detail 1  1111111ssss11111</p>
         </div>
         <h2>Dev 02</h2>
         <h2>Dev-01</h2>
