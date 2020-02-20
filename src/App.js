@@ -6,20 +6,18 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Test Commit Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <h1>Project V.2</h1>
+        <div>
+          <h2>Dev-01</h2>
+          <p>Detail 1  aaaaaaaaaaaaaaaaaa</p>
+        </div>
+        <h2>Dev 02</h2>
+        <h2>Dev-01</h2>
+        <div>
+          <h2>Dev 02</h2>
+          <p>2222222222222222222222222222222</p>
+        </div>
+
       </div>
     );
   }
