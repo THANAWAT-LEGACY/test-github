@@ -9,7 +9,7 @@ class App extends Component {
         <h1>Project V.4</h1>
         <div>
           <h2>Dev-01</h2>
-          <p>Detail 1  aaaaaaaaaaaaaaaaaa</p>
+          <p>Detail 1  111111111111</p>
         </div>
         <h2>Dev 02</h2>
         <h2>Dev-01</h2>
