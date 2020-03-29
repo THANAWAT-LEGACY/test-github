@@ -4,7 +4,7 @@ export class WorkDev2 extends Component {
     render() {
         return (
             <div>
-                
+                dev v. 1
             </div>
         )
     }
