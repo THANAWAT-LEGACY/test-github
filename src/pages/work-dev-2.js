@@ -5,6 +5,8 @@ export class WorkDev2 extends Component {
         return (
             <div>
                 dev v. 1
+                <br/>
+                เพิ่มข้อมูล
             </div>
         )
     }
