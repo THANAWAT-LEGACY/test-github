@@ -4,6 +4,7 @@ import { Row, Col } from 'react-bootstrap'
 export class WorkAll extends Component {
     render() {
         return (
+            <>
             <Row>
                 <Col>
                    All 1  V1.
@@ -12,6 +13,10 @@ export class WorkAll extends Component {
                 </Col>
                 <Col></Col>
             </Row>
+            <div>
+              Add All Dev 2
+            </div>
+            </>
         )
     }
 }
