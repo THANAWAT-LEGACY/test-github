@@ -1,24 +1,47 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Row, Col, Container } from 'react-bootstrap';
+import WorkAll from './pages/work-all';
+import WorkDev1 from './pages/word-dev-1';
+import WorkDev2 from './pages/work-dev-2';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <h1>Project V.7</h1>
-        <div>
-          <h2>Dev-01</h2>
-          <p>Detail 1  111111111111</p>
-        </div>
-        <h2>Dev 02</h2>
-        <h2>Dev-01</h2>
-        <div>
-          <h2>Dev 02</h2>
-          <p> BBBBBBBBBBB</p>
-        </div>
+      <Container>
 
-      </div>
+        <h2 style={{ textAlign: 'center', marginTop: 10 }}>Test Github</h2>
+
+        <Row className="" style={{ margin: 50 }}>
+          <Col>
+            <div className="shadow p-3 bg-white rounded">
+              <h4 style={{ textAlign: 'center', marginTop: 10, marginBottom: 10 }}>All</h4>
+
+              <WorkAll />
+            </div>
+          </Col>
+        </Row>
+
+        <Row className="mt-1" style={{ height: 300, width: '100%' }}>
+          <Col>
+            <div className="shadow p-3 mb-5 bg-white rounded">
+              <h4 style={{ textAlign: 'center', marginTop: 10, marginBottom: 10 }}>DEV 1</h4>
+
+              <WorkDev1 />
+            </div>
+          </Col>
+          <Col>
+            <div className="shadow p-3 mb-5 bg-white rounded">
+              <h4 style={{ textAlign: 'center', marginTop: 10, marginBottom: 10 }}>DEV 2</h4>
+
+              <WorkDev2 />
+
+            </div>
+          </Col>
+        </Row>
+      </Container>
+
+
     );
   }
 }
