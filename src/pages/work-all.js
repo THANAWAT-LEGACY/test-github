@@ -4,7 +4,7 @@ export class WorkAll extends Component {
     render() {
         return (
             <div>
-                
+              Add All Dev 2
             </div>
         )
     }
